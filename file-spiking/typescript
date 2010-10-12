@@ -1,0 +1,700 @@
+Script started on Tue 12 Oct 2010 01:43:13 PM IST
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ scr[K[Kerver
+The program 'server' is currently not installed.  You can install it by typing:
+sudo apt-get install rsplib-tools
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ^C
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ clea[K[K[K[Kls
+[0m[01;34mapp[0m     config.ru  [01;34mdoc[0m      [01;34mlib[0m  [01;34mpublic[0m    README  [01;34mtest[0m  typescript
+[01;34mconfig[0m  [01;34mdb[0m         Gemfile  [01;34mlog[0m  Rakefile  [01;34mscript[0m  [01;34mtmp[0m   [01;34mvendor[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ cd script
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ ls
+[0m[01;32mrails[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ c[Kcl[K[K..
+..: command not found
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$  ..
+..: command not found
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ cd ..
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ bundle install
+Fetching source index for http://rubygems.org/
+Installing rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.0) 
+Using builder (2.1.2) 
+Using i18n (0.4.1) 
+Using activemodel (3.0.0) 
+Using erubis (2.6.6) 
+Using rack (1.2.1) 
+Using rack-mount (0.6.13) 
+Using rack-test (0.5.6) 
+Using tzinfo (0.3.23) 
+Using actionpack (3.0.0) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.8) 
+Using mail (2.2.7) 
+Using actionmailer (3.0.0) 
+Using arel (1.0.1) 
+Using activerecord (3.0.0) 
+Using activeresource (3.0.0) 
+Using bundler (1.0.2) 
+Using thor (0.14.3) 
+Using railties (3.0.0) 
+Using rails (3.0.0) 
+Installing sqlite3-ruby (1.3.1) with native extensions /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:483:in `rescue in block in build_extensions': ERROR: Failed to build gem native extension. (Gem::Installer::ExtensionBuildError)
+
+/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby extconf.rb 
+checking for sqlite3.h... no
+sqlite3.h is missing. Try 'port install sqlite3 +universal' or 'yum install sqlite3-devel'
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby
+	--with-sqlite3-dir
+	--without-sqlite3-dir
+	--with-sqlite3-include
+	--without-sqlite3-include=${sqlite3-dir}/include
+	--with-sqlite3-lib
+	--without-sqlite3-lib=${sqlite3-dir}/lib
+
+
+Gem files will remain installed in /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/sqlite3-ruby-1.3.1 for inspection.
+Results logged to /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/sqlite3-ruby-1.3.1/ext/sqlite3/gem_make.out
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:486:in `block in build_extensions'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `each'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `build_extensions'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:198:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/source.rb:100:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:55:in `block in run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `block in each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:44:in `run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:8:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/cli.rb:217:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/task.rb:22:in `run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/invocation.rb:118:in `invoke_task'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor.rb:246:in `dispatch'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/base.rb:389:in `start'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/bin/bundle:13:in `<top (required)>'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/bin/bundle:19:in `load'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/bin/bundle:19:in `<main>'
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ls
+[0m[01;34mapp[0m     config.ru  [01;34mdoc[0m      [01;34mlib[0m  [01;34mpublic[0m    README  [01;34mtest[0m  typescript
+[01;34mconfig[0m  [01;34mdb[0m         Gemfile  [01;34mlog[0m  Rakefile  [01;34mscript[0m  [01;34mtmp[0m   [01;34mvendor[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ cd script
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ ls
+[0m[01;32mrails[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ cd ..\
+> cd[K[K^C
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ cd ..
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ls[K[Kclear
+[H[2J]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ sudo apt-get install libxslt-dev libxml2-dev
+[sudo] password for pankhuri: 
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Note, selecting 'libxslt1-dev' instead of 'libxslt-dev'
+The following NEW packages will be installed:
+  libxml2-dev libxslt1-dev
+0 upgraded, 2 newly installed, 0 to remove and 2 not upgraded.
+Need to get 1,371kB of archives.
+After this operation, 4,719kB of additional disk space will be used.
+0% [Working]            0% [Connecting to us.archive.ubuntu.com (91.189.92.172)]                                                        Get:1 http://us.archive.ubuntu.com/ubuntu/ maverick/main libxml2-dev i386 2.7.7.dfsg-4 [753kB]
+                                                        0% [1 libxml2-dev 1,070B/753kB 0%]1% [1 libxml2-dev 21.9kB/753kB 2%]                                  5% [1 libxml2-dev 81.6kB/753kB 10%]20% [1 libxml2-dev 277kB/753kB 36%]45% [1 libxml2-dev 626kB/753kB 83%]                                   54% [Working]             Get:2 http://us.archive.ubuntu.com/ubuntu/ maverick/main libxslt1-dev i386 1.1.26-6 [619kB]
+             54% [2 libxslt1-dev 509B/619kB 0%]                                  85% [2 libxslt1-dev 416kB/619kB 67%]                                    100% [Working]              Fetched 1,371kB in 3s (370kB/s)
+Selecting previously deselected package libxml2-dev.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 141234 files and directories currently installed.)
+Unpacking libxml2-dev (from .../libxml2-dev_2.7.7.dfsg-4_i386.deb) ...
+Selecting previously deselected package libxslt1-dev.
+Unpacking libxslt1-dev (from .../libxslt1-dev_1.1.26-6_i386.deb) ...
+Processing triggers for man-db ...
+Processing triggers for doc-base ...
+Processing 1 added doc-base file(s)...
+Registering documents with scrollkeeper...
+Setting up libxml2-dev (2.7.7.dfsg-4) ...
+Setting up libxslt1-dev (1.1.26-6) ...
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ bundle install
+Fetching source index for http://rubygems.org/
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.0) 
+Using builder (2.1.2) 
+Using i18n (0.4.1) 
+Using activemodel (3.0.0) 
+Using erubis (2.6.6) 
+Using rack (1.2.1) 
+Using rack-mount (0.6.13) 
+Using rack-test (0.5.6) 
+Using tzinfo (0.3.23) 
+Using actionpack (3.0.0) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.8) 
+Using mail (2.2.7) 
+Using actionmailer (3.0.0) 
+Using arel (1.0.1) 
+Using activerecord (3.0.0) 
+Using activeresource (3.0.0) 
+Using bundler (1.0.2) 
+Using thor (0.14.3) 
+Using railties (3.0.0) 
+Using rails (3.0.0) 
+Installing sqlite3-ruby (1.3.1) with native extensions /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:483:in `rescue in block in build_extensions': ERROR: Failed to build gem native extension. (Gem::Installer::ExtensionBuildError)
+
+/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby extconf.rb 
+checking for sqlite3.h... no
+sqlite3.h is missing. Try 'port install sqlite3 +universal' or 'yum install sqlite3-devel'
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby
+	--with-sqlite3-dir
+	--without-sqlite3-dir
+	--with-sqlite3-include
+	--without-sqlite3-include=${sqlite3-dir}/include
+	--with-sqlite3-lib
+	--without-sqlite3-lib=${sqlite3-dir}/lib
+
+
+Gem files will remain installed in /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/sqlite3-ruby-1.3.1 for inspection.
+Results logged to /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/sqlite3-ruby-1.3.1/ext/sqlite3/gem_make.out
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:486:in `block in build_extensions'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `each'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `build_extensions'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:198:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/source.rb:100:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:55:in `block in run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `block in each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:44:in `run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:8:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/cli.rb:217:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/task.rb:22:in `run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/invocation.rb:118:in `invoke_task'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor.rb:246:in `dispatch'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/base.rb:389:in `start'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/bin/bundle:13:in `<top (required)>'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/bin/bundle:19:in `load'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/bin/bundle:19:in `<main>'
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ clear
+[H[2J]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ rails server
+Could not find gem 'sqlite3-ruby (>= 0, runtime)' in any of the gem sources.
+Try running `bundle install`.
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ls
+[0m[01;34mapp[0m     config.ru  [01;34mdoc[0m      [01;34mlib[0m  [01;34mpublic[0m    README  [01;34mtest[0m  typescript
+[01;34mconfig[0m  [01;34mdb[0m         Gemfile  [01;34mlog[0m  Rakefile  [01;34mscript[0m  [01;34mtmp[0m   [01;34mvendor[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ cd [K[K[Kvb[Ki Gemfile
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H"Gemfile" 30 lines, 665 characters[1;1Hsource 'http://rubygems.org'
+
+gem 'rails', '3.0.0'
+
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+gem 'sqlite3-ruby', :require => 'sqlite3'
+
+# Use unicorn as the web server
+# gem 'unicorn'
+
+# Deploy with Capistrano
+# gem 'capistrano'
+
+# To use debugger
+# gem 'ruby-debug'
+
+# Bundle the extra gems:
+# gem 'bj'
+# gem 'nokogiri'
+# gem 'sqlite3-ruby', :require => 'sqlite3'
+# gem 'aws-s3', :require => 'aws/s3'[1;1H[?12l[?25h
+
+
+
+
+
+
+gem 'sqlite3-r
+[10;15H[11;15H
+[13;15H[14;15H
+[16;15H[17;15H
+[19;15H[20;10H[21;15H[22;15H[23;15H
+[?25l[1;24r[24;1H
+[1;25r[24;1H# Bundle gems for the local environment. Make sure to[25;1H[K[24;15H[?12l[?25h[?25l[1;24r[24;1H
+[1;25r[24;1H# put test-only gems in this group so their generators[24;15H[?12l[?25h[?25l[1;24r[24;1H
+[1;25r[24;1H# and rake tasks are available in development mode:[24;15H[?12l[?25h[?25l[1;24r[24;1H
+[1;25r[24;1H# group :development, :test do[24;15H[?12l[?25h[?25l[1;24r[24;1H
+[1;25r[24;1H#   gem 'webrat'[?12l[?25h[?25l[1;24r[24;1H
+[1;25r[24;1H# end[?12l[?25h[23;15H[22;15H[21;15H[20;15H[19;15H[18;1H[17;15H[16;15H[15;15H[14;10H[13;15H[12;1H[11;15H[10;15H[9;1H[8;15H[7;15H[6;1H[5;15H[4;15H[3;1H[2;15H[1;1H[?25l[1;24r[1;1H[L[1;25r[1;1H# gem 'rails', :git => 'git://github.com/rails/rails.git'[1;15H[?12l[?25h[?25l[1;24r[1;1H[L[1;25r[1;1H# Bundle edge Rails instead:[1;15H[?12l[?25h[?25l[1;24r[1;1H[L[1;25r[1;1H[?12l[?25h[?25l[1;24r[1;1H[L[1;25r[1;1Hgem 'rails', '3.0.0'[?12l[?25h[?25l[1;24r[1;1H[L[1;25r[1;1H[?12l[?25h[?25l[1;24r[1;1H[L[1;25r[1;1Hsource 'http://rubygems.org'[1;15H[?12l[?25h
+[3;15H
+[5;15H[6;15H
+[8;15Hu[?25l[8;24r[8;1H[L[1;25r[8;1HC[?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l:q[?12l[?25h[?25lq![?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[8;1H[K[8;1H[?12l[?25h[?25l[25;1H:[?12l[?25hq!CR[?25l[1m[37m[41mE488: Trailing characters[8;1H[?12l[?25h[?25l[m[25;1H[K[25;1H:[?12l[?25hq[?25l[1m[37m[41mE37: No write since last change (add ! to override)[8;1H[?12l[?25h[?25l[m[25;1H[K[25;1H:[?12l[?25hq![?25l[25;1H[K[25;1H[?1l>[?12l[?25h[?1049l]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ vi Gemfile
+[?1049h[?1h=[1;25r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[25;1H"Gemfile" 30 lines, 665 characters[1;1Hsource 'http://rubygems.org'
+
+gem 'rails', '3.0.0'
+
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+gem 'sqlite3-ruby', :require => 'sqlite3'
+
+# Use unicorn as the web server
+# gem 'unicorn'
+
+# Deploy with Capistrano
+# gem 'capistrano'
+
+# To use debugger
+# gem 'ruby-debug'
+
+# Bundle the extra gems:
+# gem 'bj'
+# gem 'nokogiri'
+# gem 'sqlite3-ruby', :require => 'sqlite3'
+# gem 'aws-s3', :require => 'aws/s3'[1;1H[?12l[?25h
+
+
+
+
+[5;1H[4;1H[3;1H[2;1H[1;1H[?25l[25;1H[K[25;1H:[?12l[?25hq[?25l[25;1H[K[25;1H[?1l>[?12l[?25h[?1049l]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ gedit gemg[Kfile
+^[[A^[[B^[[6~             ^C
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ gedit gemfile[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mapp[0m     config.ru  [01;34mdoc[0m      [01;34mlib[0m  [01;34mpublic[0m    README  [01;34mtest[0m  typescript
+[01;34mconfig[0m  [01;34mdb[0m         Gemfile  [01;34mlog[0m  Rakefile  [01;34mscript[0m  [01;34mtmp[0m   [01;34mvendor[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ lsgedit gemfile[3Pvi Gemfilels[Krails server[7Pclearbundle install
+Fetching source index for http://rubygems.org/
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.0) 
+Using builder (2.1.2) 
+Using i18n (0.4.1) 
+Using activemodel (3.0.0) 
+Using erubis (2.6.6) 
+Using rack (1.2.1) 
+Using rack-mount (0.6.13) 
+Using rack-test (0.5.6) 
+Using tzinfo (0.3.23) 
+Using actionpack (3.0.0) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.8) 
+Using mail (2.2.7) 
+Using actionmailer (3.0.0) 
+Using arel (1.0.1) 
+Using activerecord (3.0.0) 
+Using activeresource (3.0.0) 
+Using bundler (1.0.2) 
+Using thor (0.14.3) 
+Using railties (3.0.0) 
+Using rails (3.0.0) 
+Installing sqlite3-ruby (1.2.5) with native extensions /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:483:in `rescue in block in build_extensions': ERROR: Failed to build gem native extension. (Gem::Installer::ExtensionBuildError)
+
+/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby extconf.rb 
+checking for fdatasync() in -lrt... yes
+checking for sqlite3.h... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby
+	--with-sqlite3-dir
+	--without-sqlite3-dir
+	--with-sqlite3-include
+	--without-sqlite3-include=${sqlite3-dir}/include
+	--with-sqlite3-lib
+	--without-sqlite3-lib=${sqlite3-dir}/lib
+	--with-rtlib
+	--without-rtlib
+
+
+Gem files will remain installed in /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/sqlite3-ruby-1.2.5 for inspection.
+Results logged to /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/sqlite3-ruby-1.2.5/ext/sqlite3_api/gem_make.out
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:486:in `block in build_extensions'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `each'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `build_extensions'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:198:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/source.rb:100:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:55:in `block in run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `block in each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:44:in `run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:8:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/cli.rb:217:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/task.rb:22:in `run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/invocation.rb:118:in `invoke_task'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor.rb:246:in `dispatch'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/base.rb:389:in `start'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/bin/bundle:13:in `<top (required)>'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/bin/bundle:19:in `load'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/bin/bundle:19:in `<main>'
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ^C
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ bundle installls[Kbundle install[Kclear
+[H[2J]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ gem rails 3.0.0[1@'[C[C[C[C[C' 3.0.0, 3.0.0[C'3.0.0[C[C[C[C[C'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krails server
+Could not find gem 'sqlite3-ruby (= 1.2.5, runtime)' in any of the gem sources.
+Try running `bundle install`.
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ fg[K[Kgem instalk[Kl mysql -- --with-mysql[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+Building native extensions.  This could take a while...
+ERROR:  Error installing mysql:
+	ERROR: Failed to build gem native extension.
+
+/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby extconf.rb
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lm... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lz... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lsocket... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lnsl... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lmygcc... no
+checking for mysql_query() in -lmysqlclient... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby
+	--with-mysql-config
+	--without-mysql-config
+	--with-mysql-dir
+	--without-mysql-dir
+	--with-mysql-include
+	--without-mysql-include=${mysql-dir}/include
+	--with-mysql-lib
+	--without-mysql-lib=${mysql-dir}/lib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mlib
+	--without-mlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-zlib
+	--without-zlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-socketlib
+	--without-socketlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-nsllib
+	--without-nsllib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mygcclib
+	--without-mygcclib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+
+
+Gem files will remain installed in /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/mysql-2.8.1 for inspection.
+Results logged to /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/mysql-2.8.1/ext/mysql_api/gem_make.out
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ^C
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ gem update[1@s[1@u[1@d[1@e[1P[1@o[1@ [C[C[C[C[C[C[C[C[C[C
+[sudo] password for pankhuri: 
+Updating installed gems
+Nothing to update
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ gem install mysql
+Building native extensions.  This could take a while...
+ERROR:  Error installing mysql:
+	ERROR: Failed to build gem native extension.
+
+/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby extconf.rb
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lm... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lz... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lsocket... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lnsl... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lmygcc... no
+checking for mysql_query() in -lmysqlclient... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby
+	--with-mysql-config
+	--without-mysql-config
+	--with-mysql-dir
+	--without-mysql-dir
+	--with-mysql-include
+	--without-mysql-include=${mysql-dir}/include
+	--with-mysql-lib
+	--without-mysql-lib=${mysql-dir}/lib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mlib
+	--without-mlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-zlib
+	--without-zlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-socketlib
+	--without-socketlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-nsllib
+	--without-nsllib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mygcclib
+	--without-mygcclib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+
+
+Gem files will remain installed in /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/mysql-2.8.1 for inspection.
+Results logged to /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/mysql-2.8.1/ext/mysql_api/gem_make.out
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ cler[Kar
+[H[2J]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ruby -v
+ruby 1.9.2p0 (2010-08-18 revision 29036) [i686-linux]
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ rails -v
+Could not find gem 'sqlite3-ruby (= 1.2.5, runtime)' in any of the gem sources.
+Try running `bundle install`.
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ gems [K[K install rails --[K[K[K[K[K[K[K[K[K[Kl -[Krais[Kls --version 3.0.0[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgem install r[Keq[Ks[K[Ksqlitex[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kxcod[K[K[KCode -v
+xCode: command not found
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ruby -v
+ruby 1.9.2p0 (2010-08-18 revision 29036) [i686-linux]
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ rails -v
+Could not find gem 'sqlite3-ruby (= 1.2.5, runtime)' in any of the gem sources.
+Try running `bundle install`.
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ gem und[K[Kpdate --system
+Updating RubyGems
+Nothing to update
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ gem install rails --verio[K[Ksion 3.0.0
+Successfully installed rails-3.0.0
+1 gem installed
+Installing ri documentation for rails-3.0.0...
+Installing RDoc documentation for rails-3.0.0...
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ rails -v
+Could not find gem 'sqlite3-ruby (= 1.2.5, runtime)' in any of the gem sources.
+Try running `bundle install`.
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ cd ..
+]0;pankhuri@pankhuri: ~/file-spikingpankhuri@pankhuri:~/file-spiking$  c[K[Kcd ..
+]0;pankhuri@pankhuri: ~pankhuri@pankhuri:~$ rails -v
+Rails 3.0.0
+]0;pankhuri@pankhuri: ~pankhuri@pankhuri:~$ clear
+[H[2J]0;pankhuri@pankhuri: ~pankhuri@pankhuri:~$ ls
+[0m[01;34mDesktop[0m    examples.desktop                         [01;34mMusic[0m     [01;34mrubyTrial[0m
+[01;34mDocuments[0m  [01;34mfile-spiking[0m                             [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDownloads[0m  metaprogramming_ruby.pragmatic.2010.pdf  [01;34mPublic[0m    [01;34mVideos[0m
+]0;pankhuri@pankhuri: ~pankhuri@pankhuri:~$ cd file-spiking/
+]0;pankhuri@pankhuri: ~/file-spikingpankhuri@pankhuri:~/file-spiking$ ls
+[0m[01;34mfile-spiking[0m
+]0;pankhuri@pankhuri: ~/file-spikingpankhuri@pankhuri:~/file-spiking$ cd file-spiking/
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ls
+[0m[01;34mapp[0m     config.ru  [01;34mdoc[0m      [01;34mlib[0m  [01;34mpublic[0m    README  [01;34mtest[0m  typescript
+[01;34mconfig[0m  [01;34mdb[0m         Gemfile  [01;34mlog[0m  Rakefile  [01;34mscript[0m  [01;34mtmp[0m   [01;34mvendor[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ cd ..
+]0;pankhuri@pankhuri: ~/file-spikingpankhuri@pankhuri:~/file-spiking$ gem [K[K[K[Kbundle install
+[31mCould not locate Gemfile[0m
+]0;pankhuri@pankhuri: ~/file-spikingpankhuri@pankhuri:~/file-spiking$ cd file-spiking/
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ls
+[0m[01;34mapp[0m     config.ru  [01;34mdoc[0m      [01;34mlib[0m  [01;34mpublic[0m    README  [01;34mtest[0m  typescript
+[01;34mconfig[0m  [01;34mdb[0m         Gemfile  [01;34mlog[0m  Rakefile  [01;34mscript[0m  [01;34mtmp[0m   [01;34mvendor[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ bundle ints[K[Kstall[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd script/
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ ls
+[0m[01;32mrails[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ cd[K[Kfile fails
+fails: ERROR: cannot open `fails' (No such file or directory)
+]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ clear
+[H[2J]0;pankhuri@pankhuri: ~/file-spiking/file-spiking/scriptpankhuri@pankhuri:~/file-spiking/file-spiking/script$ l[K [Kcd ..
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ ls
+[0m[01;34mapp[0m     config.ru  [01;34mdoc[0m      [01;34mlib[0m  [01;34mpublic[0m    README  [01;34mtest[0m  typescript
+[01;34mconfig[0m  [01;34mdb[0m         Gemfile  [01;34mlog[0m  Rakefile  [01;34mscript[0m  [01;34mtmp[0m   [01;34mvendor[0m
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ cd [K[K[Kbundle Install[K[K[K[K[K[K[Kinstall
+Fetching source index for http://rubygems.org/
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.0) 
+Using builder (2.1.2) 
+Using i18n (0.4.1) 
+Using activemodel (3.0.0) 
+Using erubis (2.6.6) 
+Using rack (1.2.1) 
+Using rack-mount (0.6.13) 
+Using rack-test (0.5.6) 
+Using tzinfo (0.3.23) 
+Using actionpack (3.0.0) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.8) 
+Using mail (2.2.7) 
+Using actionmailer (3.0.0) 
+Using arel (1.0.1) 
+Using activerecord (3.0.0) 
+Using activeresource (3.0.0) 
+Using bundler (1.0.2) 
+Using thor (0.14.3) 
+Using railties (3.0.0) 
+Using rails (3.0.0) 
+Installing sqlite3-ruby (1.2.5) with native extensions /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:483:in `rescue in block in build_extensions': ERROR: Failed to build gem native extension. (Gem::Installer::ExtensionBuildError)
+
+/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby extconf.rb 
+checking for fdatasync() in -lrt... yes
+checking for sqlite3.h... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby
+	--with-sqlite3-dir
+	--without-sqlite3-dir
+	--with-sqlite3-include
+	--without-sqlite3-include=${sqlite3-dir}/include
+	--with-sqlite3-lib
+	--without-sqlite3-lib=${sqlite3-dir}/lib
+	--with-rtlib
+	--without-rtlib
+
+
+Gem files will remain installed in /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/sqlite3-ruby-1.2.5 for inspection.
+Results logged to /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@rails3/gems/sqlite3-ruby-1.2.5/ext/sqlite3_api/gem_make.out
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:486:in `block in build_extensions'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `each'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:446:in `build_extensions'
+	from /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/rubygems/installer.rb:198:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/source.rb:100:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:55:in `block in run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `block in each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/spec_set.rb:12:in `each'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:44:in `run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/installer.rb:8:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/cli.rb:217:in `install'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/task.rb:22:in `run'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/invocation.rb:118:in `invoke_task'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor.rb:246:in `dispatch'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/lib/bundler/vendor/thor/base.rb:389:in `start'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/gems/bundler-1.0.2/bin/bundle:13:in `<top (required)>'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/bin/bundle:19:in `load'
+	from /home/pankhuri/.rvm/gems/ruby-1.9.2-p0@global/bin/bundle:19:in `<main>'
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ bundle install[Kclear
+[H[2J]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ c[Krails -v
+Could not find gem 'sqlite3-ruby (= 1.2.5, runtime)' in any of the gem sources.
+Try running `bundle install`.
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ cls
+No command 'cls' found, but there are 19 similar ones
+cls: command not found
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ clear
+[H[2J]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ cd ..
+]0;pankhuri@pankhuri: ~/file-spikingpankhuri@pankhuri:~/file-spiking$ rails server
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+  -r, [--ruby=PATH]           # Path to the Ruby binary of your choice
+                              # Default: /home/pankhuri/.rvm/rubies/ruby-1.9.2-p0/bin/ruby
+  -d, [--database=DATABASE]   # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db)
+                              # Default: sqlite3
+  -b, [--builder=BUILDER]     # Path to an application builder (can be a filesystem path or URL)
+  -m, [--template=TEMPLATE]   # Path to an application template (can be a filesystem path or URL)
+      [--dev]                 # Setup the application with Gemfile pointing to your Rails checkout
+      [--edge]                # Setup the application with Gemfile pointing to Rails repository
+      [--skip-gemfile]        # Don't create a Gemfile
+  -O, [--skip-active-record]  # Skip Active Record files
+  -T, [--skip-test-unit]      # Skip Test::Unit files
+  -J, [--skip-prototype]      # Skip Prototype files
+  -G, [--skip-git]            # Skip Git ignores and keeps
+
+Runtime options:
+  -f, [--force]    # Overwrite files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -q, [--quiet]    # Supress status output
+  -s, [--skip]     # Skip files that already exist
+
+Rails options:
+  -v, [--version]  # Show Rails version number and quit
+  -h, [--help]     # Show this help message and quit
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+    See the README in the newly created application to get going.
+]0;pankhuri@pankhuri: ~/file-spikingpankhuri@pankhuri:~/file-spiking$ rails[K[K[K[K[Kcd file-spiking/
+]0;pankhuri@pankhuri: ~/file-spiking/file-spikingpankhuri@pankhuri:~/file-spiking/file-spiking$ rails server
+Could not find gem 'sqlite3-ruby (= 1.2.5, runtime)' in any 
